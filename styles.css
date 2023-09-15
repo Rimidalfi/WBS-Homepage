@@ -8,7 +8,6 @@ html, body {
     height: auto;
     display: flex;
     background-color: white ; 
-    justify-content: ;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
