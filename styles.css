@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+    min-height: auto;
+}
+.section products {
+    height:500px;
+    display:flex;
+    flex-direction: ;
+    flex-wrap: ;
+    margin:;
+    background-color: aqua;
+    }
+
+    .row 
+    { 
+        display:flex;
+        flex-direction: c;
+    }
+    
+    .products {
+        width: 40em;
+        justify-content: ;
+        align-items:center;
+        flex-direction: column;
+        display: flex;
+        border: 10px solid darkgray;
+        border-style: solid;
+    background-color: aqua;
+    
+    }
+
+    .descriptions1, .descriptions2 {
+        display:flex;
+        justify-content: center;
+    }
+
+    .ppic {
+        display:;
+    }
