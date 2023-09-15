@@ -41,29 +41,29 @@ footer {
 .nav1 {
   padding: 20px;
 }
-h3 {
+h3.w {
   font-family: "Helvetica Neue Bold";
   color: #141414;
   font-size: 1em;
   text-align: left;
 }
-ol {
+ol.w {
   font-family: Helvetica;
   color: #9d9d9d;
   text-align: left;
 }
-ul {
+ul.w {
   text-align: left;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-li {
+li.w {
   font-family: Helvetica;
   color: #9d9d9d;
   text-align: left;
 }
-a,
+a.w,
 hr {
   color: #7f7f7f;
 }
@@ -71,6 +71,7 @@ ul.legals {
   display: flex;
   justify-content: flex flex-end;
   text-align: left;
+  color: #9d9d9d;
 }
 section.footer_section_3 {
   font-family: Helvetica;
