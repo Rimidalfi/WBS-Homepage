@@ -1,38 +1,75 @@
-body {
-    background-color: aquamarine;
-    min-height: auto;
+html, body {
+    min-height: 100vh;
+    height: auto;
 }
-.section products {
-    height:500px;
-    display:flex;
-    flex-direction: ;
-    flex-wrap: ;
-    margin:;
-    background-color: aqua;
-    }
-
-    .row 
-    { 
-        display:flex;
-        flex-direction: c;
-    }
-    
-    .products {
-        width: 40em;
-        justify-content: ;
-        align-items:center;
-        flex-direction: column;
-        display: flex;
-        border: 10px solid darkgray;
-        border-style: solid;
-    background-color: aqua;
+.section1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: white ; 
+    justify-content: ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
     
     }
 
-    .descriptions1, .descriptions2 {
-        display:flex;
+    
+.product {
+        background-color: #FBFBFD;
+        width: 49%;
+        height: auto;
         justify-content: center;
+        align-items: center;
+        flex-direction:  column;
+        display: flex;
     }
+
+div > p, .cta-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.logo  {
+width:40%;
+
+}
+
+
+.descriptions1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: semi-bold;
+}
+
+.descriptions2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: semi-bold;
+    font-style: italic;
+    color: darkgray;
+}
+
+.cta-links {
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.link2 {
+    margin-left: 10px;
+}
+    
 
     .ppic {
         display:;
